@@ -8,5 +8,11 @@
     "start": "node server.js"
   },
   "author": "Ahmed Ali",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
