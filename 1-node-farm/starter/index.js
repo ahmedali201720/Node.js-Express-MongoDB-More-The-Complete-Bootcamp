@@ -28,3 +28,13 @@ fs.readFile('./txt/start.txt', 'utf-8', (err, data1) => {
 });
 
 console.log('Reading it soon !!!!')
+
+// To check outdated packages "npm outdated"
+// To install specific package version "npm install name@version"
+// Each package version contains 3 parts 1.18.11 : 
+// first is the major number and is related to breaking changes
+// Second is the minor number and is related to new features but without breaking previous code
+// Third is the patch number and is related to bug fixes
+
+// To update package use "npm update name"
+// To uninstall package use "npm uninstall name"
