@@ -5,7 +5,6 @@ const url = require('url');
 // Read API DATA
 const data = fs.readFileSync(`${__dirname}/dev-data/data.json`, 'utf-8', (err, data) => {
     if (err) return console.log(err);
-    const jsonData = data;
 });
 
 const dataObj = JSON.parse(data);
